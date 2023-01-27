@@ -1,4 +1,4 @@
-# Function-Output-Calculator
+# Area-Under-Curve-Calculator
 
 - The purpose of this program is to calculate a set of outputs given a set of inputs
 - user can modify the "updatedValues" variable to change the function to their specification.
