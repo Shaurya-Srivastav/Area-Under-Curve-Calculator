@@ -1,6 +1,6 @@
 // Created by Shaurya Srivastav
 // Date: January 27th, 2023
-// Purpose: to calculate a set of outputs given a particular function
+// Purpose: to calculate area underneath a function
 
 #include <iostream>
 #include <math.h>
