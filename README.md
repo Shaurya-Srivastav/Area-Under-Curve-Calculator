@@ -11,4 +11,4 @@
 - should be able to graph the function 
 
 
-**Program created from Calculus class with <3
+**Program created for Calculus class with ❤️
