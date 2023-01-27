@@ -6,7 +6,27 @@
 #include <math.h>
 using namespace std;
 
-void functionOutput(int input[], int size) {
+
+void leftEndPointArea(int modifiedInput[], int size){
+  int width; 
+
+  cout << "Enter rectangle width: "; 
+  cin >> width;
+
+  cout << "\n";
+
+  int totalArea = 0; 
+  int individualHeightOfRectangle;
+  for(int i = 0; i < size; i++){ 
+    individualHeightOfRectangle = (modifiedInput[i])*width;
+    totalArea = totalArea + individualHeightOfRectangle;
+  }
+
+  cout << "The total Area under the curve using the left-endpoint method is: \n" << totalArea << "\n"; 
+  
+}
+
+void functionOutput(int input[], int size) { //calculates outputs of the function and sends them to the rest
 
   int updatedDataPoints[size];
 
@@ -20,7 +40,12 @@ void functionOutput(int input[], int size) {
   for (int i = 0; i < size; i++) {
      cout << updatedDataPoints[i] << "\n";
   }
+
+  cout << "\n";
+
+  leftEndPointArea(updatedDataPoints, size); 
 }
+
 
 int main() {
   int numDataPoints;
